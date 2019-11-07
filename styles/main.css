@@ -780,6 +780,48 @@ color: #000000;
 	position: relative;
 }
 
+.what-we-need .title {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 52px;
+	color: #000000;
+}
+
+.what-we-need .elements .preview-title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 41px;	
+	color: #000000;
+}
+
+.what-we-need .elements .preview-decription {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 23px;	
+	color: #000000;
+}
+
+.what-we-need .elements .price {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.what-we-need .elements .image image {
+	width: 112px;
+	height: 112px;
+}
+
 @media (min-width: 1400px) {
 	.participants {
 		max-width: 76%;
