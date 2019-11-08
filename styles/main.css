@@ -822,6 +822,32 @@ color: #000000;
 	height: 112px;
 }
 
+.elements .input-group input {
+	width: 64px;
+	text-align: center;
+}
+
+.elements .input-group {
+	width: 128px;
+}
+
+.elements .input-group span {
+	position: relative;
+	border: none;
+}
+.elements .input-group button {
+	border: none;
+}
+
+.elements .input-group span:first-child {
+
+}
+
+.elements .input-group span:last-child 
+{
+
+}
+
 @media (min-width: 1400px) {
 	.participants {
 		max-width: 76%;
