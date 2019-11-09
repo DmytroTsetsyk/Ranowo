@@ -815,6 +815,7 @@ color: #000000;
 	line-height: 25px;
 	text-transform: uppercase;
 	color: #000000;
+	margin-top: 25px;
 }
 
 .what-we-need .elements .image image {
@@ -825,6 +826,9 @@ color: #000000;
 .elements .input-group input {
 	width: 64px;
 	text-align: center;
+	margin-left: 20px;
+	margin-right: 10px;
+	pointer-events: none;
 }
 
 .elements .input-group {
@@ -839,6 +843,69 @@ color: #000000;
 	border: none;
 }
 
+.elements > div {
+	height: 240px;
+}
+
+@media (min-width: 768px) {
+	.elements .image,
+	.elements .calculation-group {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 767px) { 
+	.elements > div {
+		height: auto !important;
+	}
+
+	.what-we-need .elements .preview-title {
+		text-align: center;
+	}
+
+	.calculation-group {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.input-group-parent {
+		display: inline-block;
+	}
+	.calculation-group .add-btn {
+		margin-top: -25px !important;
+    	margin-left: 20px;
+	}
+}
+
+.calculation-group .add-btn {	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 8px;
+	margin-top: 25px;
+}
+
+.btn-number {
+	cursor: pointer;
+}
+
+.bottom-line {
+	border: 1px solid #E5E5E5;
+	height: 1px !important;
+    margin-top: 10px;
+}
+
 .elements .input-group span:first-child {
 
 }
@@ -846,6 +913,21 @@ color: #000000;
 .elements .input-group span:last-child 
 {
 
+}
+
+.browse-prj {
+	background: #FFFFFF;
+	border: 1px solid #27AE60;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	color: #27AE60;
+	margin-top: 10px;
 }
 
 @media (min-width: 1400px) {
@@ -925,6 +1007,12 @@ color: #000000;
 
 	.par-title {
 		width: 250px;
+	}
+}
+
+@media (max-width: 991px) {
+	.elements > div {
+		height: 270px;
 	}
 }
 
