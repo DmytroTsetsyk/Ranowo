@@ -864,6 +864,127 @@ color: #000000;
     border-radius: 4px;
 }
 
+.modal-btn {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #27AE60;
+	border-radius: 4px;	
+	padding: 15px 50px 15px 50px;	
+}
+
+.modal-pr-title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.modal-total-price {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 150.5%;
+	text-align: right;	
+	color: #000000;
+	padding-left: 15px;
+}
+
+.modal-pr-block  {
+	display: inline-block;
+    float: left;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+.modal-title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000000;
+	margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.modal-price.input-group input {
+    width: 64px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+	pointer-events: none;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.modal-price {
+	width: 128px;
+}
+
+.modal-product-block {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.modal-product {
+	display: inline-block;
+}
+
+.modal-price-block {
+	display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+
+.modal-body .modal-product-block:last-child {
+	margin-bottom: 20px;
+}
+
+.modal-product-total {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	margin-top: 35px;
+}
+
+.modal-product h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.modal-product h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;	
+	opacity: 0.5;
+} 
+
 @media (min-width: 768px) {
 	.elements .image,
 	.elements .calculation-group {
