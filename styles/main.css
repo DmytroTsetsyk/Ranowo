@@ -389,7 +389,7 @@ color: #000000;
 
 .institute-block {
 	margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .institute-title {
@@ -829,6 +829,7 @@ color: #000000;
 	margin-left: 20px;
 	margin-right: 10px;
 	pointer-events: none;
+	padding-right: 0;
 }
 
 .elements .input-group {
@@ -931,6 +932,7 @@ color: #000000;
 	border: 1px solid #E0E0E0;
 	box-sizing: border-box;
 	border-radius: 4px;
+	padding-right: 0;
 }
 
 .modal-price {
