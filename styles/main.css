@@ -1091,6 +1091,11 @@ color: #000000;
 	margin-top: 10px;
 }
 
+.browse-prj:hover {
+	background-color: #27AE60;
+	color: #FFFFFF;
+}
+
 @media (min-width: 1400px) {
 	.participants {
 		max-width: 76%;
@@ -1250,11 +1255,93 @@ color: #000000;
 		font-size: 1.2vw;
 		padding-top: 10px;
 	}
+
+	.live-projects h2 {
+		font-size: 3vw;
+	}
+
+	.live-projects h3 {
+		font-size: 1.5vw;
+		line-height: 2vw;
+	}
+
+	.show-more-prj {
+		font-size: 1.3vw;
+	}
+
+	.institute-title {
+		font-size: 2vw;
+	}
+
+	.institute-description {
+		font-size: 1.1vw;
+		margin-top: 8px;
+	}
+
+	.projects-row {
+		padding-bottom: 20px;
+	}
 }
 
 @media (min-width: 1191px) {
+	.our-prg-block .prg-title {
+		font-size: 1.5vw;
+	}
+	.our-prg-block .prg-supporters {
+		font-size: 1vw;
+	}
+
+	.what-we-need .title {
+		font-size: 2.5vw;
+	}
+
+	.what-we-need .elements .preview-title {
+		font-size: 1.8vw;
+	}
+
+	.what-we-need .elements .preview-decription {
+		font-size: 16px;
+	}
+
+	.our-prg-block .prg-title {
+		font-size: 1.5vw;
+	}
+
+	.our-prg-block .prg-supporters {
+		font-size: 1vw;
+	}
+
+	.what-we-need .title {
+		font-size: 2.5vw;
+	}
+
+	.what-we-need .elements .preview-title {
+		font-size: 1.8vw;
+	}
+
 	.institute-image {
 		width: 200px;
+	}
+
+	.step-title {
+		font-size: 2vw;
+		margin-bottom: 15px;
+	}
+
+	.step-data {
+		top: -25px;
+	}
+
+	.step-description {
+		font-size: 1.2vw;
+	}
+
+	.projects-block h3.project-title {
+		font-size: 1.2vw !important;
+	}
+
+	.project-prg {
+		font-size: 1vw;
 	}
 }
 
