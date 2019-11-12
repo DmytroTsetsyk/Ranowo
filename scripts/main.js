@@ -1,7 +1,22 @@
 $( document).ready(function() {
     InitMinus();
-    InitPlus()
+    InitPlus();
+    InitSecondStep();
+    InitThirdStep();
+
 });
+
+function InitSecondStep() {
+    $(".second-step").click(function() {
+        $('#info-form-modal').modal('show');
+    });  
+}
+
+function InitThirdStep() {
+    $(".third-step").click(function() {
+        $('#third-modal').modal('show');
+    });  
+}
 
 function InitMinus() {
     $( "img[data-type='minus']").click(function() {
