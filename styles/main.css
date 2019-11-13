@@ -1576,7 +1576,8 @@ color: #000000;
 	margin-top: 10px;
 }
 
-.info-form .modal-btn {
+.info-form .modal-btn,
+.second-step.modal-btn {
 	padding: 15px 100px 15px 100px;
 }
 /* 
