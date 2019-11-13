@@ -108,7 +108,7 @@ footer {
 }
 
 .thank-you-title {
-	font-family: 'Varela Round', sans-serif;
+	font-family: sans-serif;
 	font-size: 48px;
 	line-height: 61px;
 	color: #219653;
@@ -136,7 +136,7 @@ footer {
 }
 
 .total-table .table-title {
-	font-family: 'Varela Round', sans-serif;
+	font-family: sans-serif;
 	font-style: normal;
 font-weight: normal;
 font-size: 36px;
@@ -215,7 +215,6 @@ color: #000000;
 	font-size: 13px;
 	line-height: 15px;
 	text-align: center;
-	text-transform: capitalize;
 	width: 151.74px;
 	height: 32px;
 	background: #27AE60;
@@ -250,7 +249,7 @@ color: #000000;
 
 .main-banner-title {
 	color: #000000;
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 26px;
@@ -294,7 +293,7 @@ color: #000000;
 }
 
 .live-projects h2 {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -394,7 +393,7 @@ color: #000000;
 }
 
 .institute-title {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 26px;
@@ -448,7 +447,7 @@ color: #000000;
 }
 
 .rectangle-block .description h3 {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 26px;
@@ -562,7 +561,7 @@ color: #000000;
 }
 
 .about-page .text-block span {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -572,7 +571,7 @@ color: #000000;
 }
 
 .info-block-title {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -597,12 +596,16 @@ color: #000000;
 	margin-bottom: 50px;
 }
 
+.main-campaing-poster .info-block {
+	margin-top: 35px;
+}
+
 .who-we-block {
 	background: #F5F5F7;
 }
 
 .who-we-block .title {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -700,7 +703,7 @@ color: #000000;
 	position: relative;
 }
 .main-campaing-poster .bg-image .poster-description {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
@@ -713,7 +716,7 @@ color: #000000;
 }
 
 .campaing-title {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -730,14 +733,16 @@ color: #000000;
 	color: #000000;
 }
 
-.main-campaing-poster.info-block-title {
+.main-campaing-poster .info-block-title {
 	font-size: 48px;
 	line-height: 64px;
+	color: #000000;
 }
 
-.main-campaing-poster.info-block-text {
-	font-size: 13px;
-	line-height: 23px;
+.main-campaing-poster .info-block-text {
+	font-size: 18px;
+    line-height: 28px;
+	color: #000000;
 }
 
 .our-prg-block {
@@ -786,7 +791,7 @@ color: #000000;
 }
 
 .what-we-need .title {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -894,13 +899,13 @@ color: #000000;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 	color: #000000;
 }
 
 .modal-total-price {
-	font-family: Varela Round;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
@@ -973,7 +978,7 @@ color: #000000;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 	color: #000000;
 	margin-top: 35px;
@@ -983,7 +988,7 @@ color: #000000;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 	color: #000000;
 }
@@ -992,7 +997,7 @@ color: #000000;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 15px;
 	color: #000000;	
 	opacity: 0.5;
@@ -1221,6 +1226,13 @@ color: #000000;
 		padding: 1vw 2.5vw;
 	}
 
+	.md-dynamic-button {
+		width: auto !important;
+		height: auto !important;
+		font-size: 1vw !important;
+		padding: 0.6vw 3.5vw !important;
+	}
+
 	.small-dynamic-button {
 		width: auto !important;
 		height: auto !important;
@@ -1244,7 +1256,7 @@ color: #000000;
 	}
 
 	.main-campaing-poster .bg-image .poster-description {
-		font-size: 3.2vw;
+		font-size: 2.9vw;
 	}
 
 	.campaing-title {
@@ -1566,4 +1578,36 @@ color: #000000;
 
 .info-form .modal-btn {
 	padding: 15px 100px 15px 100px;
+}
+/* 
+.elipse-icon {
+	margin-left: 12%;
+    margin-top: -25px;
+    position: relative;
+    left: -10px;
+} */
+
+.elipse-block {
+	background-size: cover;
+    background-image: url(../src/img/campaign/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-top: -16px;
+    position: relative;
+    left: -13px;
+    width: 25px;
+}
+
+.elipse-block span {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -15%);
 }
