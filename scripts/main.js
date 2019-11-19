@@ -1,5 +1,4 @@
-$( document).ready(function() {
-    InitSlickSlider();
+$( document).ready(function() { 
     InitMinus();
     InitPlus();
     InitSecondStep();
@@ -7,6 +6,7 @@ $( document).ready(function() {
     InitBackSecondStep();
     InitBackFirstStep();
     ShowSubscrModal()
+    InitSlickSlider();
 });
 
 function InitSlickSlider() {
