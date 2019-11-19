@@ -1004,7 +1004,7 @@ color: #000000;
 } 
 
 .info-form .modal-content {
-	background: #4F4F4F;
+	background: #F2F2F2;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
 }
@@ -1015,7 +1015,7 @@ color: #000000;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 28px;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -1086,14 +1086,17 @@ color: #000000;
 	border: 1px solid #27AE60;
 	box-sizing: border-box;
 	border-radius: 4px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 15px;
-	text-align: center;
-	color: #27AE60;
-	margin-top: 10px;
+	font-family: Roboto !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 13px !important;
+	line-height: 15px !important;
+	text-align: center !important;
+	color: #27AE60 !important;
+	margin-top: 10px !important;
+	padding-bottom: 0 !important;
+    padding-top: 8px !important;
+
 }
 
 .browse-prj:hover {
@@ -1511,7 +1514,7 @@ color: #000000;
 	font-weight: normal;
 	font-size: 13px;
 	line-height: 15px;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.8)
 }
 
 .info-form .title-block  {
@@ -1532,13 +1535,13 @@ color: #000000;
 	display: block;
 	border: none;
 	padding: 3px 0;
-	border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 	transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, rgba(255, 255, 255, 0.3) 4%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 96%, rgba(0, 0, 0, 0.3) 4%);
 	background-position: -320px 0;
 	background-size: 320px 100%;
 	background-repeat: no-repeat;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(0, 0, 0, 1);
 	font-size: 16px;
 	font-family: Roboto;
 }
@@ -1550,7 +1553,7 @@ color: #000000;
 }
 .info-form .text-area:focus::-webkit-input-placeholder,
 .info-form .text-area:valid::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(0, 0, 0, 0.3);
 	font-size: 11px;
 	/* transform: translateY(-20px); */
 	/* visibility: visible !important; */
@@ -1562,7 +1565,7 @@ color: #000000;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 28px;
-	color: rgba(255, 255, 255, 0.9);	
+	color: rgba(0, 0, 0, 0.9);	
 	opacity: 0.9;
 }
 
