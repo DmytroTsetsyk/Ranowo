@@ -1395,6 +1395,32 @@ color: #000000;
 	}
 }
 
+.mobile-banner {
+	width: 100%;
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+	height: 65vw;
+}
+
+.slide-1 {
+	background-image: url(../src/img/home/head_img_overlay/img_index1.png);
+}
+
+.slide-2 {
+	background-image: url(../src/img/home/head_img_overlay/img_index2.png);
+}
+
+.slide-3 {
+	background-image: url(../src/img/home/head_img_overlay/img_index3.png);
+}
+
+.mobile-banner {
+	display: none;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.institute-image {
 		width: 145px;
@@ -1402,6 +1428,14 @@ color: #000000;
 }
 
 @media (max-width: 767px) {
+	.desktop-banner {
+		display: none;
+	}
+
+	.mobile-banner {
+		display: block;
+	}
+
 	.rectangle-block {
 		height: 400px;
 	}
@@ -1439,6 +1473,27 @@ color: #000000;
 		font-size: 14px;
 		line-height: 21px;
 	}
+
+	.main-banner-title {
+		font-size: 19px;
+		width: 60%;
+		margin-left: 20%;
+		text-align: center;
+		line-height: 26px;
+	}
+	
+	.main-banner-subtext {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.main-banner-title
+	.main-banner-subtext {
+		display: block;
+}	
 }
 
 @media only screen and (min-width: 511px) and (max-width: 768px) {
@@ -1614,4 +1669,36 @@ color: #000000;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -15%);
+}
+
+
+.contact-form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact-form input[type=text],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover {
+  background-color: #45a049;
 }

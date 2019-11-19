@@ -1,4 +1,5 @@
 $( document).ready(function() {
+    InitSlickSlider();
     InitMinus();
     InitPlus();
     InitSecondStep();
@@ -6,8 +7,18 @@ $( document).ready(function() {
     InitBackSecondStep();
     InitBackFirstStep();
     ShowSubscrModal()
-
 });
+
+function InitSlickSlider() {
+    $('.mobile-banner').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+}
 
 function ShowSubscrModal(){
     $(".steps-block").waypoint(function() {
