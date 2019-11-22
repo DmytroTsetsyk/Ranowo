@@ -1685,30 +1685,54 @@ color: #000000;
 .contact-form {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	width: 70%;
+	margin-left: 15%;
 }
 
-.contact-form input[type=text],
+.contact-form h4 {
+	font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.contact-form input,
 .contact-form select,
 .contact-form textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  display: block;
+  padding: 6px 12px;
+  margin: 9px 0 24px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 24px;
+  background: #fff;
+  border: 1px solid #8c8c8c;
+  /* -webkit-appearance: textfield; */
+  border-radius: 3px;
+}
+
+.contact-form input[type=email]:before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+.contact-form input[type=phone] {
+
 }
 
 .contact-form input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #27AE60;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px solid #27AE60;
   border-radius: 4px;
   cursor: pointer;
+  width: 150px;
 }
 
 .contact-form input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: transparent;
+  color: #27AE60;
 }

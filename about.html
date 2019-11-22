@@ -7,6 +7,8 @@
   <title>Ranowo</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+ 
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -111,24 +113,34 @@
   </div>
   <div class="row contact-form">
     <div class="col-xs-12">
-        <form action="">
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+        <h4>Contact form</h4>
+        <form action="#">
+            <label for="who-are-you">Who are you?</label>
+            <select id="who-are-you" name="who-are-you">
+              <option value="individual">Individual</option>
+              <option value="nonprofit">Nonprofit</option>
+              <option value="business">Business</option>
             </select>
+
+            <label for="fname">Name *</label>
+            <input type="text" id="fname" name="fname" placeholder="Full Name/ Business / Non-Profit Name">
         
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="name@domain.tld">
         
+            <label for="phone">Phone *</label>
+            <input type="number" id="phone" name="phone" placeholder="#########">
+
+            <label for="url">Website Url *</label>
+            <input type="url" id="url" name="url" placeholder="http//:domain.tld">
+        
+            <!-- <label for="url">Website Url *</label>
+            <input type="url" id="url" name="url" placeholder="#########"> -->
+            <!-- <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+            
+            <div class="g-recaptcha" data-sitekey="6LcnLsQUAAAAAMrlHCuKyE0rHNN16WISGh0_AWn5"></div>
+            <br/>
+
             <input type="submit" value="Submit">
         
           </form>
@@ -165,6 +177,7 @@
 	  </div>
     </div>
   </footer>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="plugins/jquery.min.js"></script>
   <script src="plugins/bootstrap/bootstrap.min.js"></script>
   <script src="plugins/jquery.waypoints.min.js"></script>
