@@ -1696,7 +1696,8 @@ color: #000000;
 
 .contact-form input,
 .contact-form select,
-.contact-form textarea {
+.contact-form textarea,
+.subscribe-mod-content input {
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -1759,4 +1760,150 @@ color: #000000;
     width: 30px;
     margin-left: 3px;
     margin-top: -5px;
+  }
+
+  .subscribe-mod .modal-body .row,
+  .subscribe-mod .modal-body {
+	padding: 0;
+  }
+
+  .subscribe-mod .modal-body .row {
+	  overflow: hidden;
+  }
+
+  .subscribe-mod .subscribe-mod-content h3 {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+	color: #000000;
+	margin-top: 35px;
+  }
+
+  .subscribe-mod .subscribe-mod-content h2 {
+    color: #000000;
+    font-family: sans-serif;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 2.5vw;
+    line-height: 3.2vw;
+    margin-top: 50px;
+  }
+
+.subscribe-mod .subscribe-mod-content h4 {
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 30px;
+    font-size: 1.3vw;
+    line-height: 2.1vw;
+    color: #000000;
+}
+
+.subscribe-mod .subscribe-mod-content {
+	width: 80%;
+	margin-left: 10%;
+}
+
+ 
+  .subscribe-mod .pop-up-img {
+	background-image: url('../src/img/home/popupbanner-min.png');
+	height: 35vw;
+	width: 40%;
+	float: right;
+  }
+  .subscribe-mod-content label {
+    margin-top: 15px;
+  }
+
+  .subscribe-mod-content input {
+	  border: none;
+	  border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+	  padding-left: 0px;
+	  margin-top: 0px;
+  }
+
+  .subscribe-mod-content .modal-btn {
+	padding: 10px 50px 10px 50px;
+	font-size: 14px;
+	font-weight: 500;
+  }
+
+  .subscribe-mod-close {
+	position: absolute;
+    right: 25px;
+    top: 25px;
+    z-index: 999;
+    background-color: white !important;
+    border-radius: 100%;
+	opacity: 1;
+	width: 30px;
+    height: 30px;
+    font-size: 20px;
+	font-weight: 500;
+	border: 1px solid white;
+  }
+
+  @media (max-width: 1350px) { 
+	.subscribe-mod .subscribe-mod-content h2 {
+		margin-top: 25px;
+	}
+  }
+
+  @media (max-width: 1280px) { 
+	.subscribe-mod .pop-up-img {
+		width: 40%;
+	}
+
+	.subscribe-mod .subscribe-mod-content h3 {
+		margin-top: 10px;
+	}
+  }
+
+  @media (max-width: 991px) { 
+	.subscribe-mod .pop-up-img {
+		width: 250px;
+		height: 385px;
+	}
+
+	.subscribe-mod .subscribe-mod-content h2 {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	.subscribe-mod .subscribe-mod-content h4 {
+		font-size: 16px;
+    	line-height: 20px;
+	}
+
+	.subscribe-mod-content input {
+		font-size: 12px;
+	}
+  }
+
+  @media (max-width: 640px) {
+	  .subscribe-mod-text {
+		  width: 100%;
+		  height: 350px;
+	  }
+
+	  .pop-up-img {
+		  display: none;
+	  }
+
+	  .subscribe-mod .subscribe-mod-content h3 {
+		  margin-top: 20px;
+	  }
+
+	  .subscribe-mod-content input {
+		font-size: 14px;
+	}
+
+	.subscribe-mod .modal-body {
+		position: relative;
+	}
+
+	.subscribe-mod-close {
+		border: 1px solid black !important;
+	}
   }
