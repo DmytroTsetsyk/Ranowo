@@ -7,8 +7,7 @@
   <title>Ranowo</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
- 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/2.0.0/css/font-awesome-ie7.css" integrity="sha256-qmd+eMrIeHF1sST4c+wqDyNzp/Ka05FKeNLSKF0SP+A=" crossorigin="anonymous" />
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -124,12 +123,29 @@
 
             <label for="fname">Name *</label>
             <input type="text" id="fname" name="fname" placeholder="Full Name/ Business / Non-Profit Name">
-        
+            
             <label for="email">Email *</label>
-            <input type="email" id="email" name="email" placeholder="name@domain.tld">
-        
+            <div class="inner-addon left-addon">
+              <i class="glyphicon glyphicon-envelope"></i>
+              <input type="email" id="email" name="email" placeholder="name@domain.tld">
+            </div>
+
             <label for="phone">Phone *</label>
-            <input type="number" id="phone" name="phone" placeholder="#########">
+            <div class="inner-addon left-addon">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000"
+                preserveAspectRatio="xMidYMid meet">
+               <metadata>
+               </metadata>
+               <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
+               fill="#ababab" stroke="none">
+               <path d="M52 293 c-7 -3 -18 -16 -23 -30 -29 -77 93 -223 186 -223 68 0 90 56
+               34 85 -28 15 -32 15 -49 0 -18 -16 -21 -16 -48 4 -16 11 -37 31 -45 45 -14 21
+               -14 26 -2 36 19 16 19 35 -1 65 -16 25 -27 28 -52 18z"/>
+               </g>
+               </svg>
+                <input type="number" id="phone" name="phone" placeholder="#########">
+            </div>
 
             <label for="url">Website Url *</label>
             <input type="url" id="url" name="url" placeholder="http//:domain.tld">
@@ -138,8 +154,8 @@
             <input type="url" id="url" name="url" placeholder="#########"> -->
             <!-- <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
             
-            <div class="g-recaptcha" data-sitekey="6LcnLsQUAAAAAMrlHCuKyE0rHNN16WISGh0_AWn5"></div>
-            <br/>
+            <!-- <div class="g-recaptcha" data-sitekey="6LcnLsQUAAAAAMrlHCuKyE0rHNN16WISGh0_AWn5"></div>
+            <br/> -->
 
             <input type="submit" value="Submit">
         

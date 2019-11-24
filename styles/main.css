@@ -1714,14 +1714,6 @@ color: #000000;
   border-radius: 3px;
 }
 
-.contact-form input[type=email]:before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
-}
-
-.contact-form input[type=phone] {
-
-}
-
 .contact-form input[type=submit] {
   background-color: #27AE60;
   color: white;
@@ -1736,3 +1728,35 @@ color: #000000;
   background-color: transparent;
   color: #27AE60;
 }
+
+.inner-addon {
+	position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon i,
+  .inner-addon svg {
+	position: absolute;
+    pointer-events: none;
+    font-size: 25px;
+    padding-left: 5px;
+	padding-top: 5px;
+	color: #ababab;
+  }
+  
+  /* align glyph */
+  .left-addon i,
+  .left-addon svg  { left:  0px;}
+  .right-addon i { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  35px; }
+  .right-addon input { padding-right: 30px; }
+
+  .inner-addon svg {
+	fill: gray;
+    font-size: 10px;
+    width: 30px;
+    margin-left: 3px;
+    margin-top: -5px;
+  }
