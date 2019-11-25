@@ -7,7 +7,15 @@ $( document).ready(function() {
     InitBackFirstStep();
     ShowSubscrModal()
     InitSlickSlider();
+    SubmitAboutForm();
+    $(".thank-for-contact").hide();
 });
+
+function SubmitAboutForm() {
+    $(".submit-about-form").click(function() {
+        $(".thank-for-contact").show();
+    });  
+}
 
 function InitSlickSlider() {
     $('.mobile-banner').slick({
