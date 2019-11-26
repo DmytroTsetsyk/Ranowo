@@ -126,23 +126,29 @@
           </div>
         </div>
         <h4>Contact form</h4>
-        <form action="action="javascript:void(0);">
+        <form id="contact-us-form" action="javascript:void(0);">
+            <div>
             <label for="who-are-you">Who are you?</label>
             <select id="who-are-you" name="who-are-you">
               <option value="individual">Individual</option>
               <option value="nonprofit">Nonprofit</option>
               <option value="business">Business</option>
             </select>
-
-            <label for="fname">Name *</label>
-            <input type="text" id="fname" name="fname" placeholder="Full Name/ Business / Non-Profit Name">
-            
-            <label for="email">Email *</label>
-            <div class="inner-addon left-addon">
-              <i class="glyphicon glyphicon-envelope"></i>
-              <input type="email" id="email" name="email" placeholder="name@domain.tld">
+          </div>
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" placeholder="Full Name/ Business / Non-Profit Name">
             </div>
+            
+            <div>
+              <label for="email">Email *</label>
+                <div class="inner-addon left-addon">
+                <i class="glyphicon glyphicon-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="name@domain.tld">
+              </div>
+          </div>
 
+          <div>
             <label for="phone">Phone *</label>
             <div class="inner-addon left-addon">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -159,9 +165,11 @@
                </svg>
                 <input type="number" id="phone" name="phone" placeholder="#########">
             </div>
-
+          </div>
+          <div>
             <label for="url">Website Url *</label>
             <input type="url" id="url" name="url" placeholder="http//:domain.tld">
+            </div>
         
             <!-- <label for="url">Website Url *</label>
             <input type="url" id="url" name="url" placeholder="#########"> -->
@@ -211,6 +219,8 @@
   <script src="plugins/jquery.min.js"></script>
   <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
   <script src="plugins/jquery.waypoints.min.js"></script>
+  <script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="scripts/about.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>

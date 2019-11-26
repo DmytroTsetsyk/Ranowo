@@ -1718,6 +1718,7 @@ color: #000000;
   /* -webkit-appearance: textfield; */
   border-radius: 3px;
   font-family: Roboto;
+  margin-bottom: 0;
 }
 
 .contact-form input[type=submit],
@@ -1758,7 +1759,7 @@ color: #000000;
   
   /* align glyph */
   .left-addon i,
-  .left-addon svg  { left:  0px;}
+  .left-addon svg  { left:  0px; z-index: 999;}
   .right-addon i { right: 0px;}
   
   /* add padding  */
@@ -1917,6 +1918,17 @@ color: #000000;
   .contact-us-btn:focus {
 	  color: white;
 	  background-color: #27AE60;
+  }
+
+  .error {
+	font-weight: 400;
+	color: red;
+	margin-top: 10px;
+  }
+
+  #contact-us-form div {
+	position: relative;
+	margin-bottom: 15px;
   }
 
   @media (max-width: 1350px) { 

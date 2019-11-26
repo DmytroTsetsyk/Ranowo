@@ -6,15 +6,8 @@ $( document).ready(function() {
     InitBackSecondStep();
     InitBackFirstStep();
     ShowSubscrModal()
-    SubmitAboutForm();
     $(".thank-for-contact").hide();
 });
-
-function SubmitAboutForm() {
-    $(".submit-about-form").click(function() {
-        $(".thank-for-contact").show();
-    });  
-}
 
 function ShowSubscrModal(){
     $(".steps-block").waypoint(function() {
