@@ -6,7 +6,6 @@ $( document).ready(function() {
     InitBackSecondStep();
     InitBackFirstStep();
     ShowSubscrModal()
-    InitSlickSlider();
     SubmitAboutForm();
     $(".thank-for-contact").hide();
 });
@@ -15,17 +14,6 @@ function SubmitAboutForm() {
     $(".submit-about-form").click(function() {
         $(".thank-for-contact").show();
     });  
-}
-
-function InitSlickSlider() {
-    $('.mobile-banner').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-      });
 }
 
 function ShowSubscrModal(){

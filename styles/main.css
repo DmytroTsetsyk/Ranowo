@@ -2,6 +2,10 @@ body {
 	background: #FFFFFF;
 }
 
+header {
+	margin-bottom: 70px;
+}
+
 .navbar-default .navbar-brand {
 	width: 141px;
 	height: 41px;
@@ -1685,8 +1689,8 @@ color: #000000;
 .contact-form {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	width: 70%;
-	margin-left: 15%;
+	width: 50%;
+	margin-left: 25%;
 }
 
 .contact-form h4 {
@@ -1724,6 +1728,10 @@ color: #000000;
   border-radius: 4px;
   cursor: pointer;
   width: 150px;
+}
+
+.contact-form input[type=button] {
+	display: inline;
 }
 
 .contact-form input[type=submit]:hover,
@@ -1877,6 +1885,39 @@ color: #000000;
 	width: calc(98% - 62px);
   }
 
+  .slick-dots li button:before {
+	  font-size: 16px;
+	  opacity: 0.5;
+	  color: white;
+  }
+
+  .slick-dots {
+	  bottom: 10px;
+  }
+
+  .slick-dots li.slick-active button:before {
+	color: #27AE60;
+    opacity: 1;
+  }
+
+  .slick-dots li button:hover:before,
+  .slick-dots li button:focus:before {
+	color: #27AE60;
+  }
+
+  .contact-us-btn {
+	  border: 1px solid #27AE60;
+	  color: #27AE60;
+	  background-color: transparent;
+	  margin-bottom: 25px;
+  }
+
+  .contact-us-btn:hover,
+  .contact-us-btn:focus {
+	  color: white;
+	  background-color: #27AE60;
+  }
+
   @media (max-width: 1350px) { 
 	.subscribe-mod .subscribe-mod-content h2 {
 		margin-top: 25px;
@@ -1914,6 +1955,17 @@ color: #000000;
 	}
   }
 
+  @media (max-width: 920px) { 
+	.contact-form {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.contact-us-btn {
+		font-size: 21px;
+	}
+}
+
   @media (max-width: 640px) {
 	  .subscribe-mod-text {
 		  width: 100%;
@@ -1922,6 +1974,10 @@ color: #000000;
 
 	  .pop-up-img {
 		  display: none;
+	  }
+
+	  .subscribe-mod-form div {
+		  text-align: center;
 	  }
 
 	  .subscribe-mod .subscribe-mod-content h3 {

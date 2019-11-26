@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ranowo</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/2.0.0/css/font-awesome-ie7.css" integrity="sha256-qmd+eMrIeHF1sST4c+wqDyNzp/Ka05FKeNLSKF0SP+A=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
   <header>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
       <div class="navbar-header">
 	   <a class="navbar-brand" href="index.html">Ranowo</a>
@@ -27,7 +27,7 @@
   	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
       <li><a href="about.html">About Us</a></li>
-      <li><a href="about.html">Contact Us</a></li>
+      <li><a href="about.html#contact-form">Contact Us</a></li>
       <li><a href="index.html#live-projects" class="btn default-btn browse-prj">Browse Projects</a></li>
     </ul>
   </div>
@@ -110,8 +110,10 @@
           </div>
     </div>
   </div>
-  <div class="row contact-form">
+  <div class="row contact-form" id="contact-form">
     <div class="col-xs-12">
+      <div class="text-center"><button type="button" class="btn contact-us-btn big-dynamic-button" data-toggle="collapse" data-target="#contact-form-collapse">Contact Us</button></div>
+        <div id="contact-form-collapse" class="collapse">
         <div class="thank-for-contact">
           <div class="thank-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
@@ -167,10 +169,11 @@
             
             <!-- <div class="g-recaptcha" data-sitekey="6LcnLsQUAAAAAMrlHCuKyE0rHNN16WISGh0_AWn5"></div>
             <br/> -->
-
-            <input type="button" class="submit-about-form" value="Submit">
-        
+              <div class="col-xs-12 text-center">
+                <input type="button" class="submit-about-form" value="Submit">
+              </div>
           </form>
+        </div>
     </div>
   </div>
   </div>
@@ -194,7 +197,7 @@
 				<ul class="footer-menu">
 				<li class="footer-title">Navigate</li>
 				<li><a href="about.html">About Us</a></li>
-				<li><a href="about.html">Contact</a></li>
+				<li><a href="about.html#contact-form">Contact</a></li>
 				<li><a href="#">Legal</a></li>
 			</ul>  
 		</div>
@@ -206,9 +209,8 @@
   </footer>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="plugins/jquery.min.js"></script>
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
   <script src="plugins/jquery.waypoints.min.js"></script>
-  <script type="text/javascript" src="plugins/slick.min.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
