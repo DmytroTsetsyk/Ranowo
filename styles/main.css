@@ -1717,6 +1717,7 @@ color: #000000;
   border: 1px solid #8c8c8c;
   /* -webkit-appearance: textfield; */
   border-radius: 3px;
+  font-family: Roboto;
 }
 
 .contact-form input[type=submit],
