@@ -2,7 +2,7 @@ $( document).ready(function() {
     InitMinus();
     InitPlus();
     InitSecondStep();
-    InitThirdStep();
+    // InitThirdStep();
     InitBackSecondStep();
     InitBackFirstStep();
     ShowSubscrModal()
@@ -39,12 +39,12 @@ function InitSecondStep() {
     });  
 }
 
-function InitThirdStep() {
-    $(".third-step").click(function() {
+// function InitThirdStep() {
+//     $(".third-step").click(function() {
 
-        $('#third-modal').modal('show');
-    });  
-}
+//         $('#third-modal').modal('show');
+//     });  
+// }
 
 function HideAllModals(){
     $('#info-form-modal').modal('hide');
