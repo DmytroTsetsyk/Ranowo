@@ -7,7 +7,17 @@ $( document).ready(function() {
     InitBackFirstStep();
     ShowSubscrModal()
     $(".thank-for-contact").hide();
+	InitHeaderOpacity ();
+	
 });
+
+function InitHeaderOpacity (){
+	window.addEventListener('scroll', function () {
+  document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+}
 
 function ShowSubscrModal(){
     $(".steps-block").waypoint(function() {
